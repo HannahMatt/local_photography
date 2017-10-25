@@ -1,41 +1,47 @@
 <!DOCTYPE html>
-<html lag='en'>
+<html lang='en'>
 
 <head>
 	<meta charset="utf-8">
 	<title>Local Photography</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="custom.css">
+	<link rel="stylesheet" href="https://bootswatch.com/journal/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Local Photography</a>
-    </div>
-    <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li><a href='index.html'>Home</a></li>
-        <li><a href='about.html'>About</a></li>
-        <li><a href='internships.html'>Internships</a></li>
-        <li><a href='classes.html'>Classes</a></li>
-        <li><a href='studio_history.html'>Studio History</a></li>
-        <li><a href='studio_hours.html'>Studio Hours</a></li>
-        <li><a href='login.html'>Log In</a></li>
-        <li><a href='signup.html'>Sign Up</a></li>
-      </ul>
-    </div>
-  </div>
-  </nav>
+<!-- Navigation bar and sandwich menu -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            <!-- Collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          </div>
+          </div>
+            <!-- title on nav bar  -->
+            <div><a class="navbar-brand" href="#">Local Photography</a></div>
+
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="internships.html">Internships</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="studio_history.html">Studio History</a></li>
+          <li><a href="studio_hours.html">Studio Hours</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+          <li class="active"><a href="login.html">Log In</a></li>
+          <li><a href='signup.html'>Sign Up</a></li>
+        </ul>
+      </div>
+    </nav>
 
 <div class="jumbotron">
 	<div class="container">
@@ -43,24 +49,31 @@
     </div>
 </div>
 
+<div>
+<div class="col-xs-6" style='padding-left: 130px'>
+  <img src="images/path_and_river.png" alt=Path and River />
+</div>
+</div>
+
 <div class="container">
-<div class="col-xs-12 col-md-6">
+<div class="col-xs-6">
   <fieldset>
     <h1>User Information</h1>
       <h4>
-        <label for="username">Username:</label> 
+        <label for="username">Username:</label>
         <input type="text" id="username" placeholder="Username"/>
         </h4>
       <h4>
-        <label for="password">Password:</label> 
+        <label for="password">Password:</label>
         <input type="text" id="password" placeholder="Password" />
       </h4>
     <button type="button" class="btn btn-primary btn-sm">Log In</button>
   </fieldset>
 </div>
+</div>
 
 <footer>
-  <div style='text-align: center; padding-top: 50px'>
+  <div class style='text-align: center; padding-top: 50px;'>
     &copy; Contact us at please.help@localphotography.com! We love to hear from our fans!
   </div>
 </footer>
