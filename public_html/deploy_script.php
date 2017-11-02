@@ -15,4 +15,8 @@ echo $output;
 		
 		</pre>
 	</body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> ffabc919549aff92431e9f24a8fa54865ff9096e
