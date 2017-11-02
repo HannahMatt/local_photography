@@ -25,7 +25,7 @@
 </div>
 
 <?php
-include 'navigation.php';
+include '../resources/navigation.php';
 ?>
 
 <section>
@@ -56,7 +56,7 @@ include 'navigation.php';
 </section>
 
 <?php
-include 'footer.php';
+include '../resources/footer.php';
 ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
