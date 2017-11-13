@@ -24,8 +24,8 @@
           <li><a href="studio_history.php">Studio History</a></li>
           <li><a href="studio_hours.php">Studio Hours</a></li>
           <li><a href="contact.php">Contact Us</a></li>
-          <li><a href='login.php'>Log In</a></li>
-          <li><a href='signup.<?php  ?>'>Sign Up</a></li>
+          <li><a href="login.php">Log In</a></li>
+          <li><a href="signup.php">Sign Up</a></li>
         </ul>
       </div>
     </nav>
